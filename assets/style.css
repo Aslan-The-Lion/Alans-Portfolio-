@@ -13,7 +13,6 @@ body {
     font-family: Comic Sans MS, Comic Sans, cursive; 
   font-size: 1.75rem;
   line-height: 1.5;
-  color: var(--gin);
   background-color: var(--gin);
 }
 
@@ -39,4 +38,11 @@ header {
     padding: 2.5rem;
     text-align: center;
     background-color: var(--artichoke-green);
+  }
+
+  header h1 a{
+    color: var(--dark-green);
+  }
+  header h1 :hover {
+   color: var(--asparagus);
   }
