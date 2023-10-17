@@ -53,7 +53,9 @@ header {
     padding: 10px;
   }
 
-
+.sizing{
+width: 100%;
+}
 
 .content {
     flex: content;
