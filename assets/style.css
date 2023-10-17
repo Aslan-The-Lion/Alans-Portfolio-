@@ -59,12 +59,20 @@ footer{
     background-color: var(--artichoke-green);
 }
 
-footer a {
+footer p {
     color: var(--dark-green);
 }
 
-footer a:hover {
-    color: var(--asparagus);
+section a {
+    color: var(--dark-green);
+}
+
+section a:hover {
+    color: var(--pine);
+}
+
+.kumo {
+text-align: left;
 }
 
 .sizing{
