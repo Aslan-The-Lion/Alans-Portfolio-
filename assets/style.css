@@ -18,18 +18,13 @@ body {
 
 html {
     font-size: 62.5%;
-  }
+}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0.625rem;
     font-weight: 700;
     line-height: 1.1; 
-  }
+}
 
 header {
     width: 96%;
@@ -38,20 +33,38 @@ header {
     padding: 2.5rem;
     text-align:center;
     background-color: var(--artichoke-green);
-  }
+}
 
-  header h1 a{
+header h1 a{
     color: var(--dark-green);
-  }
-  header h1 :hover {
-   color: var(--asparagus);
-  }
+}
 
-  section{
+header h1 a:hover {
+   color: var(--asparagus);
+}
+
+section{
     width: 100%;
     background-color: var(--asparagus);
     padding: 10px;
-  }
+}
+
+footer{
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 2.5rem;
+    text-align:center;
+    background-color: var(--artichoke-green);
+}
+
+footer a {
+    color: var(--dark-green);
+}
+
+footer a:hover {
+    color: var(--asparagus);
+}
 
 .sizing{
 width: 100%;
@@ -70,4 +83,3 @@ height: 300px;
 #about-me{
     justify-content: flex-end;
 }
-
